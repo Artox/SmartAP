@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ./shflags
+. ./shflags
 
 DEFINE_string 'device' 'wlan0' 'Wireless LAN Device Name' 'd'
 DEFINE_string 'ssid' 'SmartAP' 'SSID to use for the Access Point' 's'

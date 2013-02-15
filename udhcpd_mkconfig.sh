@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source ./shflags
+. ./shflags
 
 DEFINE_string 'start' '192.168.0.2' 'First Ip Address to be served' 's'
 DEFINE_string 'end' '192.168.0.254' 'Last IP to be served' 'e'

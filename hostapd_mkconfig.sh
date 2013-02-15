@@ -7,7 +7,7 @@
 #
 #################################################################################
 
-source ./shflags
+. ./shflags
 
 DEFINE_string 'ssid' 'SmartAP' 'SSID to use for the Access Point' 's'
 DEFINE_string 'password' 'SuperSecret' 'Password to use for the Access Point' 'p'
