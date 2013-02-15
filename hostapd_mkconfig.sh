@@ -6,14 +6,6 @@
 # Encryption is WPA2 with preshared Key
 #
 #################################################################################
-# USAGE: ./hostapd_mkconfig.sh [flags] args
-# flags:
-#   -s,--ssid:  SSID to use for the Access Point (default: 'SmartAP')
-#   -p,--password:  Password to use for the Access Point (default: 'SuperSecret')
-#   -d,--device:  Wireless LAN Device Name (default: 'wlan0')
-#   -c,--config:  Output File Name (default: 'hostapd.conf')
-#   -h,--[no]help:  show this help (default: false)
-#################################################################################
 
 source ./shflags
 
