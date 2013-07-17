@@ -9,7 +9,7 @@ echo $pidfile
 echo $udhcpd_args
 
 # launch udhcpd
-udhcpd $udhcpd_args
+busybox udhcpd $udhcpd_args
 
 # helper function to forwad sigint, sigterm
 shutdown() {
