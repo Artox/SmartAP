@@ -46,7 +46,7 @@ workdir=`pwd`
 # set up network interface
 # possible alternative might be to flush leases file
 # and run udhcpc to get an IP directly form udhcpd
-ifconfig wlan0 up $hostip netmask $netmask
+ifconfig $device up $hostip netmask $netmask
 sleep 1
 
 # start udhcpd and hostapd in background
@@ -70,6 +70,6 @@ trap shutdownap INT TERM
 wait
 
 # deactivate interface
-ifconfig wlan0 down
+ifconfig $device down
 
 echo "Done"
